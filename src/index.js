@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import GobalDisplay from "./display";
-import "./display.css";
+import Loader from "./loader.js";
 
 class App extends React.Component {
   //A generic Javascript meethod. similar to Java constructor.
@@ -58,7 +58,7 @@ class App extends React.Component {
         ></GobalDisplay>
       );
     }
-    return <div>Loading....</div>;
+    return <Loader message="Waiting for loacation"></Loader>;
   }
 }
 
