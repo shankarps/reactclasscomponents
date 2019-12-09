@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SeasonDisplay from "./display";
+import GobalDisplay from "./display";
+import "./display.css";
 
 class App extends React.Component {
   //A generic Javascript meethod. similar to Java constructor.
@@ -51,10 +52,10 @@ class App extends React.Component {
     }
     if (!this.state.errorMsg && this.state.lat) {
       return (
-        <div>
-          <div>Latitude: {this.state.lat}</div>
-          <div>Longitude: {this.state.long}</div>
-        </div>
+        <GobalDisplay
+          lat={this.state.lat}
+          long={this.state.long}
+        ></GobalDisplay>
       );
     }
     return <div>Loading....</div>;

@@ -1,0 +1,10 @@
+.icon-style {
+  top: 100px;
+  left: 100px;
+  color: navy;
+}
+
+.global-display {
+  background-color: aliceblue;
+  display: inline;
+}
