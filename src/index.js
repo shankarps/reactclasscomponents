@@ -10,7 +10,14 @@ class App extends React.Component {
     super(props);
     //init state object
     this.state = { lat: null, long: null, errorMsg: null };
+  }
 
+  //redundant - state is also set in the constructor.
+  state = { lat: null };
+
+  componentDidMount() {
+    console.log("component mount method called");
+    //load the eo location
     //Two callbacks - first for success, second in case of failure
     window.navigator.geolocation.getCurrentPosition(
       //runs asynchronously
@@ -28,10 +35,13 @@ class App extends React.Component {
     );
   }
 
+  componentDidUpdate() {
+    console.log("component update method called");
+  }
+
   //Default mandatory method for every react class based component.
   render() {
-    //Get the user's browser location
-
+    //Conditionally display html
     if (this.state.errorMsg && !this.state.lat) {
       return (
         <div>
