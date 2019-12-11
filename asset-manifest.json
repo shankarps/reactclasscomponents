@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shankarps.github.io/reactclasscomponents/static/css/main.be26c73d.chunk.css",
+    "main.js": "/shankarps.github.io/reactclasscomponents/static/js/main.593d7bc4.chunk.js",
+    "main.js.map": "/shankarps.github.io/reactclasscomponents/static/js/main.593d7bc4.chunk.js.map",
+    "runtime-main.js": "/shankarps.github.io/reactclasscomponents/static/js/runtime-main.47aac67b.js",
+    "runtime-main.js.map": "/shankarps.github.io/reactclasscomponents/static/js/runtime-main.47aac67b.js.map",
+    "static/js/2.b55bd704.chunk.js": "/shankarps.github.io/reactclasscomponents/static/js/2.b55bd704.chunk.js",
+    "static/js/2.b55bd704.chunk.js.map": "/shankarps.github.io/reactclasscomponents/static/js/2.b55bd704.chunk.js.map",
+    "index.html": "/shankarps.github.io/reactclasscomponents/index.html",
+    "precache-manifest.3d76375cb578456a171fb6f1f64e1797.js": "/shankarps.github.io/reactclasscomponents/precache-manifest.3d76375cb578456a171fb6f1f64e1797.js",
+    "service-worker.js": "/shankarps.github.io/reactclasscomponents/service-worker.js",
+    "static/css/main.be26c73d.chunk.css.map": "/shankarps.github.io/reactclasscomponents/static/css/main.be26c73d.chunk.css.map",
+    "static/js/2.b55bd704.chunk.js.LICENSE": "/shankarps.github.io/reactclasscomponents/static/js/2.b55bd704.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47aac67b.js",
+    "static/js/2.b55bd704.chunk.js",
+    "static/css/main.be26c73d.chunk.css",
+    "static/js/main.593d7bc4.chunk.js"
+  ]
+}

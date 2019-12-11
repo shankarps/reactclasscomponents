@@ -1,0 +1,1 @@
+{"version":3,"sources":["display.css"],"names":[],"mappings":"AAAA,YACE,SAAU,CACV,UAAW,CACX,UACF,CAEA,gBACE,wBAA2B,CAC3B,cACF","file":"main.be26c73d.chunk.css","sourcesContent":[".icon-style {\r\n  top: 100px;\r\n  left: 100px;\r\n  color: navy;\r\n}\r\n\r\n.global-display {\r\n  background-color: aliceblue;\r\n  display: inline;\r\n}\r\n"]}
